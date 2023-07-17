@@ -92,9 +92,9 @@
 `  <div class="container">
     <div class="product-title common-title">выберите свой бургер</div>
     <div class="product-items">
-      <div class="product-item" *ngFor="let products of ProductsData">
+      <div class="product-item" *ngFor="let products of productsData">
         <div class="product-item-image">
-          <img src="./assets/images/{{products.image}}" alt="{{products.title}}" />
+          <img src="{{products.image}}" alt="{{products.title}}" />
         </div>
         <div class="product-item-title">{{products.title}}</div>
         <div class="product-item-text">{{products.text}}</div>
